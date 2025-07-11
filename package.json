@@ -1,0 +1,12 @@
+{
+  "name": "project-init",
+  "version": "0.0.1",
+  "description": "Vue 3 项目模板的脚手架工具",
+  "bin": {
+    "project-init": "bin/projectInit.js"
+  },
+  "keywords": ["vue3", "template", "cli", "scaffold"],
+  "author": "allen0517",
+  "license": "MIT",
+  "dependencies": {}
+}
