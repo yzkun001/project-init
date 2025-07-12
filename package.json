@@ -1,6 +1,6 @@
 {
   "name": "project-init-a",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue 3 项目模板的脚手架工具",
   "bin": {
     "project-init-a": "bin/projectInit.js"

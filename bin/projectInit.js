@@ -44,6 +44,12 @@ const run = () => {
   try {
     execSync(`git clone ${repo} ${projectName}`, { stdio: 'inherit' })
 
+    const gitDir = path.join(targetDir, '.git')
+if (existsSync(gitDir)) {
+  rmSync(gitDir, { recursive: true, force: true })
+}
+
+
     console.log('📦 正在安装依赖...')
     execSync(`cd ${projectName} && ${pkgManager} install`, {
       stdio: 'inherit',
